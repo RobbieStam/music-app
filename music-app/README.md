@@ -1,8 +1,12 @@
-# React + Vite
+# Instalation and usage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##
+1. Clone this repo onto your device locally
+``` git clone <SSH Key link>```
+2. CD into repo locally
+```cd music-app```
+3. Install necessary packages
+```npm install```
+4. Run app
+```npm run dev```
+5. then go to http://localhost:5173
