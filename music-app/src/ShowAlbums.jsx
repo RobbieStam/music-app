@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 const albums = [
   {
     name: "Physics EP",
@@ -38,6 +40,34 @@ function ListSongs(arr) {
   )
 }
 
+function LikeButton() {
+  const [like, setLike] = useState("Like")
+
+  const handleLikedButton = () => {
+    setLike(previous => "Unlike")
+  }
+
+  const handleUnlikedButton = () => {
+    setLike(previous => "Like")
+  }
+
+  const handleButton = () => {
+    if (like === "Like") {
+      handleLikedButton()
+    } else {
+      handleUnlikedButton()
+    }
+  }
+
+  return (
+    <>
+    <button id="like-btn"
+      onClick={handleButton}
+    >{like}</button>
+    </>
+  )
+}
+
 function ShowAlbums() {
   return (
     albums.map(album => {
@@ -46,8 +76,9 @@ function ShowAlbums() {
         <div className="album" key={album.name}>
         <h2>{album.name}</h2>
         <img src={album.cover}/>
-        <h3>Release Date:{album.release}</h3>
+        <h3>Release Date: {album.release}</h3>
         <ul>Songs: {ListSongs(album.songs)}</ul>
+        <span><LikeButton /></span>
         </div>
         </>
       )

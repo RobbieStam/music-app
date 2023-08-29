@@ -6,7 +6,7 @@ return (
   <>
   <h1>{artist.name}</h1>
   <h2>Genre: {artist.genre}</h2>
-  <h2>Intro:</h2>
+  <h3>About:</h3>
   <p>{artist.intro}</p>
   </>
 )
