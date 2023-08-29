@@ -25,6 +25,19 @@ const albums = [
   }
 ]
 
+function ListSongs(arr) {
+  return (
+    arr.map(i => {
+      return (
+        <>
+        <li key={i}>{i}</li>
+        </>
+      )
+    })
+
+  )
+}
+
 
 function ShowAlbums() {
   return (
@@ -35,19 +48,13 @@ function ShowAlbums() {
         <h2>{album.name}</h2>
         <img src={album.cover}/>
         <h3>Release Date:{album.release}</h3>
-        <ul>
-          <li>{album.songs}</li>
-        </ul>
+        <ul>{ListSongs(album.songs)}</ul>
         </div>
         </>
       )
 
     })
   )
-}
-
-function ListStudents() {
-  
 }
 
 
