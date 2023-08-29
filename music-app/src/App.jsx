@@ -6,7 +6,7 @@ import ShowAlbums from './ShowAlbums.jsx'
 function App() {
   return (
     <> 
-    <div><ArtistIntro /></div>
+    <div className="intro"><ArtistIntro /></div>
     <div><ShowAlbums /></div>
     </>
   )

@@ -1,4 +1,49 @@
 body {
-  color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-image: url("https://www.telegraph.co.uk/content/dam/music/2017/11/06/Jordan-Mackampa-press-shot_trans_NvBQzQNjv4BqzoMsCpJSMPyJesVpCCAG4iBlyjd0ckc3VG5fEsaY0U0.jpg");
+}
+
+h1 {
+  color: #9DB5B2;
+  font-size: 10vh;
+}
+
+h2 {
+  font-size: 5vh;
+}
+
+h3 {
+  font-size: 4vh;
+}
+
+ul {
+  font-size: 4vh;
+}
+
+li {
+  text-align: left;
+  font-size: 3vh;
+  padding: 1.5vh;
+}
+
+p {
+  font-size: 2.5vh;
+  padding: 1vh;
+}
+
+
+.intro {
+  background-color: #3B413C;
+  margin: 5vh 20vw;
+  padding: 5vh;
+  border-radius: 1vh;
+}
+
+.album {
+  background-color: #3B413C;
+  margin: 5vh 20vw;
+  padding: 5vh;
+  border-radius: 1vh;
 }
