@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import ArtistIntro from './ArtistIntro.jsx'
-import ShowAlbums from './ShowAlbums.jsx'
+import { ArtistIntro, ShowAlbums } from './components'
 
 function App() {
   return (
