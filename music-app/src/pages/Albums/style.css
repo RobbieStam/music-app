@@ -1,0 +1,14 @@
+button {
+  background-color: white;
+  padding: 1.5vh 1.5vw;
+  border-radius: 1vh;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 52vw;
+  font-size: 2vh;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #3B413C;
+  color: white;
+}
