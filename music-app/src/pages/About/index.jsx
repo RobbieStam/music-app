@@ -1,7 +1,9 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import { default as ArtistIntro } from '../../components/ArtistIntro'
 
 const About = () => {
+  const navigate = useNavigate()
   return (
     <>
     <button
