@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom'
 import { NavBar } from './layout'
 import * as Pages from './pages'
 import './App.css'
-import { ArtistIntro, ShowAlbums } from './components'
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<NavBar />}>
           <Route  index element={<Pages.Home />} />
-
+          <Route path="/about" element ={<Pages.About />} />
           <Route path="/albums" element={<Pages.Albums />} />
         </Route>
       </Routes>

@@ -23,6 +23,7 @@ const NavBar = () => {
         <h4>Jordan Mackamapa <LocationDisplay /></h4>
         <ul className="nav-links">
           <li><NavLink to="/" style={navA}>Home</NavLink></li>
+          <li><NavLink to="/about" style={navA}>About</NavLink></li>
           <li><NavLink to="/albums" style={navA}>Albums</NavLink></li>
         </ul>
       </nav>
